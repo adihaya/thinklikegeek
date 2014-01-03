@@ -129,6 +129,9 @@ body.viewing-page-3 .header h1, body.viewing-page-3 .nav-top span.right a {
   color: #FFDD00 /*white*/;
 }
 
+span.centre span.center {
+    color: gold;
+}
 .main section.page3 .page_container {
   position: absolute;
   margin-left: -325px;
