@@ -57,7 +57,7 @@ h1 {
   bottom: 0;
   margin-left: -325px;
   left: 50%;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   max-width: 650px;
 }
 
@@ -84,9 +84,9 @@ h1 {
 .main section.page2 .page_container {
   position: absolute;
   margin-left: -420px;
-  left: 50%;
-  top: 40%;
-  margin-bottom: 50px;
+  left: 34%;
+  top: 10%;
+  margin-bottom: 150px;
   max-width: 445px;
 }
 
@@ -136,8 +136,8 @@ span.centre span.center {
   position: absolute;
   margin-left: -325px;
   left: 50%;
-  top: 40%;
-  margin-bottom: 50px;
+  top: 27%;
+  margin-bottom: 150px;
   max-width: 650px;
 }
 
