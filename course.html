@@ -3,12 +3,15 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
 		<title>Think•Like•Geek - Think</title>
 		<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
 		<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
 		<meta name="author" content="Author for Onextrapixel" />
 		<link rel="shortcut icon" id="favicon" href="favicon.png"> 
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" src="css/default.css"/>
 		
 		<!-- Edit Below -->
 		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -36,6 +39,92 @@
     'recommended' : {} 
   });
 </script>
+        <style id="responsify">
+        /* Responsiveness: */
+
+/*Resizing elements to be flexible*/
+
+            @media screen and (max-width: 980px) {
+                #nav-top .nav-top{
+                    height: 80%;
+                
+                }
+                h1 {
+                    font-size: 23px;
+                }
+                #titlehead {
+                display:none;
+                }
+                .onepage-pagination {
+                display: none;
+                }
+                #fusion-ad, .fusion-ad {
+                display:none;
+                }
+                .menu {
+                    display:none;
+                }
+                .page_container {
+                 position: absolute;
+                bottom: 0;
+                  margin-left: -325px;
+                  left: 50%;
+                  margin-bottom: 150px;
+                    margin:auto;
+                  max-width: 650px;
+                }
+            }
+            @media screen and (max-width: 580px) {
+                #nav-top .nav-top{
+                    height: auto;
+                    position:static;
+                }
+                h1 {
+                    font-size: 20px;
+    
+                }
+                #titlehead {
+                display:none;
+                }
+                .onepage-pagination {
+                display:none;
+                }
+                #fusion-ad, .fusion-ad {
+                display:none;
+                }
+                .menu {
+                    display:none;
+                }
+                .page_container {
+                 position: absolute;
+                bottom: 0;
+                  margin-left: -325px;
+                  left: 50%;
+                  margin-bottom: 150px;
+                    margin:auto;
+                  max-width: 650px;
+                }
+            }
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+.video embed,
+.video object,
+.video iframe {
+	width: 100%;
+	height: auto;
+}
+html {
+	-webkit-text-size-adjust: none;
+}
+</style>
+        <link rel="stylesheet" type="text/css" href="css/default.css" src="css/default.css"/>
+        <!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+        
 <!-- AddThis Smart Layers END -->
         <script>window.outerHeight=2000; window.outerWidth=2000;</script>
 	<div class="nav-top clearfix">
