@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /introvid_files/
+Sitemap: http://thinklikegeek.com/sitemap.xml
+
